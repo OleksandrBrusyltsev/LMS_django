@@ -22,7 +22,7 @@ class Article(models.Model):
     class Meta:
         verbose_name = "Статья"
         verbose_name_plural = "Статьи"
-
+# 232
 class LMSUser(AbstractBaseUser):
     username = models.CharField(max_length=30, null=False, unique=True)
     email = models.EmailField("email address", blank=True, unique=True)
